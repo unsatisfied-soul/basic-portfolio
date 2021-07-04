@@ -25,6 +25,7 @@ body{
    width: 100%;
    max-width: 500px;
    color: rgb(194, 194, 194);
+   margin-bottom: 40px;
 }
 .portfolio-image{
    padding: 40px 0px;
@@ -58,4 +59,46 @@ body{
 }
 .dream-text{
    padding: 40px 0px;
+}
+.experince{
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-bottom: 80px;
+}
+.experience-heading{
+   color: #fff;
+   font-size: 50px;
+}
+.experience-container{
+   display: flex;
+}
+.dev-ops-left{
+   background: white;
+   margin-right: 20px;
+   width: 50%;
+   padding: 20px 10px;
+   border-left: 8px solid;
+   border-image: linear-gradient(#57AC30, #A0DB5E);
+   border-image-slice: 1;
+}
+.dev-ops-right{
+   background: white;
+   width: 50%;
+   margin-left: 20px;
+   padding: 20px 10px;
+   border-left: 8px solid;
+   border-image: linear-gradient(#F1B808,#F7F66E);
+   border-image-slice: 1;
+}
+.dev-heading{
+   font-size: 40px;
+   color: rgb(255, 102, 0);
+   line-height: 0px;
+}
+.sub-heading{
+   font-weight: bold;
+}
+footer p{
+   color: #fff;
+   text-align: center;
 }
